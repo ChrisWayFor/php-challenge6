@@ -1,6 +1,7 @@
-<?php 
+<?php
 const BR = '<br />';
-function writeSecretSentence($paramOne, $paramTwo) {
+function writeSecretSentence(string $paramOne, string $paramTwo)
+{
     $read = "$paramOne s'incline face à $paramTwo";
     return $read;
 }
